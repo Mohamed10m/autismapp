@@ -1,7 +1,6 @@
 import 'package:autism/layout/cubit/home_cubit.dart';
 import 'package:autism/layout/cubit/home_states.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -15,7 +14,10 @@ class HomeLayout extends StatelessWidget {
           return Scaffold(
             body: AppCubit.get(context)
                 .screens[AppCubit.get(context).currentIndex],
+
             bottomNavigationBar: CurvedNavigationBar(
+              height: 65,
+
               backgroundColor: HexColor('#FFCCE6'),
               items: [
                 Icon(Icons.nine_k),
@@ -23,7 +25,7 @@ class HomeLayout extends StatelessWidget {
                 Icon(Icons.archive_outlined),
               ],
               animationDuration: Duration(milliseconds: 200),
-              index: 1,
+              index: 0,
               onTap: (index) {
                 AppCubit.get(context).changeIndex(index);
               },

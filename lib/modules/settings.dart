@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class NotificationScreen extends StatelessWidget {
+class SettingsScreen extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
-
+    return Container();
   }
 }

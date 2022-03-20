@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "620698156267",
+    "project_id": "autism-app-a887e",
+    "storage_bucket": "autism-app-a887e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620698156267:android:56da22273717bf842512ae",
+        "android_client_info": {
+          "package_name": "com.flutter.autism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620698156267-sae8l4fjlhaollu5crmebfet5bt0t2ou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutter.autism",
+            "certificate_hash": "5a3ac38cd3eb5a82cb8136eb869e65ffc3fd97d4"
+          }
+        },
+        {
+          "client_id": "620698156267-2fnd438dpik308ipaoqsjtqdg85f4rop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWYVeV0lPpsL8bZFXlL2D8Eq97Wfv02qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620698156267-2fnd438dpik308ipaoqsjtqdg85f4rop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
